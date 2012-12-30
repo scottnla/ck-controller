@@ -1,0 +1,18 @@
+Title: ck-controller
+Description: controls color kinetics lights via udp directly to the power supply
+Usage:
+Date Started: 2012 Dec
+Last Modified: 2012 Dec
+http://www.asymptoticdesign.org/
+This work is licensed under a Creative Commons 3.0 License.
+(Attribution - NonCommerical - ShareAlike)
+http:#creativecommons.org/licenses/by-nc-sa/3.0/
+
+In summary, you are free to copy, distribute, edit, and remix the work.
+Under the conditions that you attribute the work to the author, it is for
+noncommercial purposes, and if you build upon this work or otherwise alter
+it, you may only distribute the resulting work under this license.
+
+Of course, these permissions may be waived with permission from the author.
+
+Reminder: Set your IP to a 10.32.0.* IP address in order to connect!

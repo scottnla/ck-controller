@@ -1,24 +1,6 @@
 """
-Title:
-Description:
-Usage:
-Date Started:
-Last Modified:
-http://www.asymptoticdesign.org/
-This work is licensed under a Creative Commons 3.0 License.
-(Attribution - NonCommerical - ShareAlike)
-http:#creativecommons.org/licenses/by-nc-sa/3.0/
-
-In summary, you are free to copy, distribute, edit, and remix the work.
-Under the conditions that you attribute the work to the author, it is for
-noncommercial purposes, and if you build upon this work or otherwise alter
-it, you may only distribute the resulting work under this license.
-
-Of course, these permissions may be waived with permission from the author.
-
-Description of Usage:
-scottnla@faraday-cage:~/$ python readSerial.py [filename]
-Reads serial information from an arduino circuit, writes it to file.
+Title: test.py
+Description: A quick demo of how to send a single data packet or looped data packets to the PDS-60ca
 """
 
 import socket
