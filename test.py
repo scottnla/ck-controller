@@ -7,7 +7,6 @@ import socket
 import struct
 import time
 import numpy
-import ckdmxlib
 from numpy import *
 
 def update_display(sockt, channel, lightArray):
