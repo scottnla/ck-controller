@@ -1,6 +1,6 @@
 """
 TItle: cklib
-Description: 
+Description: Object-oriented library for controlling power supplies, lights, etc.
 """
 
 import socket
