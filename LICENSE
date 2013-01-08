@@ -13,7 +13,3 @@ noncommercial purposes, and if you build upon this work or otherwise alter
 it, you may only distribute the resulting work under this license.
 
 Of course, these permissions may be waived with permission from the author.
-==USAGE==
-CONNECT: Set your IP to a 10.32.0.* IP address in order to connect!
-
-DATA FORMAT: The input data is a list of LIGHTS (not DMX addresses!).  Each light is a hex-defined color (such as 0xabcdef); so use 0xff0000 for red, 0x00ff00 for green, etc.  Each power supply can control two 'channels' of 50 strands.  You can specify the channel in the display command.
