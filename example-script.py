@@ -9,7 +9,7 @@ import time
 import numpy
 from numpy import *
 
-def update_display(sockt, channel, lightArray):
+def writeLights(sockt, channel, lightArray):
     header = bytearray([0x04, 0x01, 0xdc, 0x4a, 0x01, 0x00, 0x08, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, channel, 0x00, 0x00, 0x00, 0x96, 0x00, 0xff, 0x0f])
     rgb_data = bytearray()
     for light in lightArray:
@@ -26,8 +26,8 @@ sock.connect(destination_address)
 
 #To set all lights to one color, then stop:
 pixels = [0xAA00FF for i in range(0,50)]
-update_display(sock, 0x01, pixels)
-update_display(sock, 0x02, pixels)
+writeLights(sock, 0x01, pixels)
+writeLights(sock, 0x02, pixels)
 
 time.sleep(5)
 
@@ -46,7 +46,7 @@ while(True):
     else:
         val += sign
         pixels = [val for i in range(0,50)]
-        update_display(sock, 0x01, pixels)
-        update_display(sock, 0x02, pixels)
+        writeLights(sock, 0x01, pixels)
+        writeLights(sock, 0x02, pixels)
         time.sleep(0.01)
         

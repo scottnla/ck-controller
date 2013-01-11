@@ -1,5 +1,5 @@
 Title: ck-controller
-Description: controls color kinetics lights via udp directly to the power supply
+Description: An object-oriented approach to writing UDP packets to Color Kinetics products for lighting control.
 Date Started: 2012 Dec
 Last Modified: 2012 Dec
 http://www.asymptoticdesign.org/
@@ -15,6 +15,8 @@ it, you may only distribute the resulting work under this license.
 Of course, these permissions may be waived with permission from the author.
 
 ==USAGE==
-CONNECT: Set your IP to a 10.32.0.* IP address in order to connect!  I always forget this :(
+Use Power_Supply() to create an object for every physical power supply you have.  Then attach lights to each power supply using the addLight() method and the appropriate light class (right now there's a class for Colorblasts and another for Flex lights).  Set the state attribute of each light to the desired color and then write the data using the Power_Supply class's write() method.
 
-See example.py for a basic sketch on how to use the cklib library.
+While this seems a bit convoluted at first, this makes sense because it allows you to program what you want each light to do without thinking about what power supply its attached to, and then allows the power supply to do all of the DMX formatting for you.
+
+Two examples are in examples.py, while a non-object oriented script is in example-script.py.
