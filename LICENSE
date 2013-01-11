@@ -1,7 +1,7 @@
 Title: ck-controller
-Description: controls color kinetics lights via udp directly to the power supply
+Author: Nathan Lachenmyer (scottnla@mit.edu)
 Date Started: 2012 Dec
-Last Modified: 2012 Dec
+Last Modified: 2013 Jan
 http://www.asymptoticdesign.org/
 This work is licensed under a Creative Commons 3.0 License.
 (Attribution - NonCommerical - ShareAlike)

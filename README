@@ -1,18 +1,7 @@
 Title: ck-controller
 Description: An object-oriented approach to writing UDP packets to Color Kinetics products for lighting control.
-Date Started: 2012 Dec
-Last Modified: 2012 Dec
+Last Modified: 2013 Jan
 http://www.asymptoticdesign.org/
-This work is licensed under a Creative Commons 3.0 License.
-(Attribution - NonCommerical - ShareAlike)
-http:#creativecommons.org/licenses/by-nc-sa/3.0/
-
-In summary, you are free to copy, distribute, edit, and remix the work.
-Under the conditions that you attribute the work to the author, it is for
-noncommercial purposes, and if you build upon this work or otherwise alter
-it, you may only distribute the resulting work under this license.
-
-Of course, these permissions may be waived with permission from the author.
 
 ==USAGE==
 Use Power_Supply() to create an object for every physical power supply you have.  Then attach lights to each power supply using the addLight() method and the appropriate light class (right now there's a class for Colorblasts and another for Flex lights).  Set the state attribute of each light to the desired color and then write the data using the Power_Supply class's write() method.
